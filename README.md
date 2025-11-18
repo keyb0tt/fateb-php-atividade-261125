@@ -1,4 +1,4 @@
-![FATEB Logo](fateb.png)
+![FATEB Logo](img/fateb.png)
 
 # 📘 Exercícios de HTML e PHP --- Lista Completa
 
