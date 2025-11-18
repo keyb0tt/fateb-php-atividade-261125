@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="img/fateb.png">
+  <img src="img/FATEB.png">
 </div>
 
 # 📘 Exercícios de HTML e PHP --- Lista Completa
