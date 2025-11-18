@@ -1,4 +1,6 @@
-![FATEB Logo](img/fateb.png)
+<div align="center">
+  <img src="img/fateb.png">
+</div>
 
 # 📘 Exercícios de HTML e PHP --- Lista Completa
 
