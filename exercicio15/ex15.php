@@ -2,28 +2,28 @@
 
 <body>
     <form method="POST">
-        <h3>Sabor:</h3>
-        <input type="radio" name="sabor" value="Calabresa"> Calabresa<br>
-        <input type="radio" name="sabor" value="Mussarela"> Mussarela<br>
-        <input type="radio" name="sabor" value="Portuguesa"> Portuguesa<br>
-
-        <h3>Tamanho:</h3>
+        <br>Tamanho:
         <select name="tamanho">
             <option value="Pequena">Pequena</option>
             <option value="Média">Média</option>
             <option value="Grande">Grande</option>
-        </select><br>
+        </select><br><br>
 
-        <h3>Complementos:</h3>
-        <input type="checkbox" name="comp[]" value="Borda"> Borda recheada<br>
-        <input type="checkbox" name="comp[]" value="Catupiry"> Catupiry<br>
-        <input type="checkbox" name="comp[]" value="Bacon"> Bacon extra<br>
+        Sabor:<br>
+        <input type="radio" name="sabor" value="Calabresa"> Calabresa<br>
+        <input type="radio" name="sabor" value="Mussarela"> Mussarela<br>
+        <input type="radio" name="sabor" value="Portuguesa"> Portuguesa<br>
 
-        <button type="submit">Fazer Pedido</button>
+        <br>Complementos:<br>
+        <input type="checkbox" name="comp[]" value="Borda"> Borda <br>
+        <input type="checkbox" name="comp[]" value="Catupiry"> Calabresa <br>
+        <input type="checkbox" name="comp[]" value="Bacon"> Maionese <br>
+
+        <br><button type="submit" name="confirmar">Confirmar</button>
     </form>
 
     <?php
-    if ($_POST) {
+    if (isset($_POST["confirmar"])) {
         $con = mysqli_connect("localhost", "root", "1234", "BANCO");
 
         $sabor = $_POST['sabor'];
